@@ -1,0 +1,35 @@
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #34495e;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex: 3;
+}
+.sidebar {
+    background-color: #dfe6e9;
+    padding: 20px;
+    flex: 1;
+}
